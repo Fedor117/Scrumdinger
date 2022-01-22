@@ -14,15 +14,16 @@ struct CardView: View {
         VStack(alignment: .leading) {
             Text(scrum.title)
                 .font(.headline)
+                .accessibilityAddTraits(.isHeader)
             Spacer()
             HStack {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
                     .accessibilityElement(children: .ignore)
                     .accessibilityLabel(Text("Attendees"))
-                    .accessibilityValue(Text("\(scrum.attendees.count)"))
+                    .accessibilityValue(Text("\(scrum.attendees.count) attendees"))
                 Spacer()
                 Label("\(scrum.lengthInMinutes)", systemImage: "clock")
-                    .padding(.trailing, 20)
+                    .labelStyle(.trailingIcon)
                     .accessibilityElement(children: .ignore)
                     .accessibilityLabel(Text("Meeting length"))
                     .accessibilityValue(Text("\(scrum.lengthInMinutes) minutes"))
@@ -30,15 +31,15 @@ struct CardView: View {
         }
         .font(.caption)
         .padding()
-        .foregroundColor(scrum.color.accessibleFontColor)
+        .foregroundColor(scrum.theme.accentColor)
     }
 }
 
 struct CardView_Previews: PreviewProvider {
-    static var scrum = DailyScrum.data[0]
+    static var scrum = DailyScrum.sampleData[0]
     static var previews: some View {
         CardView(scrum: scrum)
-            .background(scrum.color)
+            .background(scrum.theme.mainColor)
             .previewLayout(.fixed(width: 400, height: 60))
     }
 }
