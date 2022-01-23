@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5400D012279CE7F1005F7A79 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5400D011279CE7F1005F7A79 /* ScrumStore.swift */; };
-		5411CADB26C9882100498667 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411CADA26C9882100498667 /* Color+Codable.swift */; };
 		5411CADD26C99DCF00498667 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411CADC26C99DCF00498667 /* ScrumsView.swift */; };
 		5411CADF26C9B68500498667 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411CADE26C9B68500498667 /* DetailView.swift */; };
 		544D891626C6E3B700BB0B02 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544D891526C6E3B700BB0B02 /* ScrumdingerApp.swift */; };
@@ -32,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		5400D011279CE7F1005F7A79 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
-		5411CADA26C9882100498667 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		5411CADC26C99DCF00498667 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		5411CADE26C9B68500498667 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		544D891226C6E3B700BB0B02 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				545C512426E2918000A63E70 /* AVPlayer+Ding.swift */,
-				5411CADA26C9882100498667 /* Color+Codable.swift */,
 				544D892526C6EE8B00BB0B02 /* DailyScrum.swift */,
 				545C512226E2914A00A63E70 /* ScrumTimer.swift */,
 				54F0DF2F279C776B0062A15A /* Theme.swift */,
@@ -211,7 +208,6 @@
 				54F0DF36279C7F1C0062A15A /* ThemeView.swift in Sources */,
 				545C512526E2918000A63E70 /* AVPlayer+Ding.swift in Sources */,
 				545C511F26E28E0C00A63E70 /* MeetingHeaderView.swift in Sources */,
-				5411CADB26C9882100498667 /* Color+Codable.swift in Sources */,
 				545C512126E2905000A63E70 /* ScrumProgressViewStyle.swift in Sources */,
 				544D891626C6E3B700BB0B02 /* ScrumdingerApp.swift in Sources */,
 				54F0DF32279C78920062A15A /* TrailingIconLabelStyle.swift in Sources */,
