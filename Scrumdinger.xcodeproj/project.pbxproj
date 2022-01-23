@@ -12,6 +12,8 @@
 		5411CADF26C9B68500498667 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411CADE26C9B68500498667 /* DetailView.swift */; };
 		54443954279D9710009F5C71 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54443953279D9710009F5C71 /* ErrorWrapper.swift */; };
 		54443956279D977B009F5C71 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54443955279D977B009F5C71 /* ErrorView.swift */; };
+		54443958279DA287009F5C71 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54443957279DA287009F5C71 /* MeetingTimerView.swift */; };
+		5444395A279DA4BE009F5C71 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54443959279DA4BE009F5C71 /* SpeakerArc.swift */; };
 		544D891626C6E3B700BB0B02 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544D891526C6E3B700BB0B02 /* ScrumdingerApp.swift */; };
 		544D891826C6E3B700BB0B02 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544D891726C6E3B700BB0B02 /* MeetingView.swift */; };
 		544D891A26C6E3B800BB0B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544D891926C6E3B800BB0B02 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 		5411CADE26C9B68500498667 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		54443953279D9710009F5C71 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		54443955279D977B009F5C71 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		54443957279DA287009F5C71 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		54443959279DA4BE009F5C71 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		544D891226C6E3B700BB0B02 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		544D891526C6E3B700BB0B02 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		544D891726C6E3B700BB0B02 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 				544D892426C6EE7C00BB0B02 /* Model */,
 				544D891526C6E3B700BB0B02 /* ScrumdingerApp.swift */,
 				545C511E26E28E0C00A63E70 /* MeetingHeaderView.swift */,
+				54443957279DA287009F5C71 /* MeetingTimerView.swift */,
 				54DE220626E3FF7000D46AD7 /* MeetingFooterView.swift */,
 				544D891726C6E3B700BB0B02 /* MeetingView.swift */,
 				544D891926C6E3B800BB0B02 /* Assets.xcassets */,
@@ -105,6 +110,7 @@
 				54F0DF35279C7F1C0062A15A /* ThemeView.swift */,
 				54F0DF37279C7FAC0062A15A /* ThemePicker.swift */,
 				54443955279D977B009F5C71 /* ErrorView.swift */,
+				54443959279DA4BE009F5C71 /* SpeakerArc.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -209,6 +215,7 @@
 				5400D012279CE7F1005F7A79 /* ScrumStore.swift in Sources */,
 				54DE220726E3FF7000D46AD7 /* MeetingFooterView.swift in Sources */,
 				5411CADF26C9B68500498667 /* DetailView.swift in Sources */,
+				54443958279DA287009F5C71 /* MeetingTimerView.swift in Sources */,
 				544D892826C6EFBF00BB0B02 /* CardView.swift in Sources */,
 				54443954279D9710009F5C71 /* ErrorWrapper.swift in Sources */,
 				545C512326E2914A00A63E70 /* ScrumTimer.swift in Sources */,
@@ -219,6 +226,7 @@
 				545C512126E2905000A63E70 /* ScrumProgressViewStyle.swift in Sources */,
 				544D891626C6E3B700BB0B02 /* ScrumdingerApp.swift in Sources */,
 				54F0DF32279C78920062A15A /* TrailingIconLabelStyle.swift in Sources */,
+				5444395A279DA4BE009F5C71 /* SpeakerArc.swift in Sources */,
 				54F0DF30279C776B0062A15A /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
