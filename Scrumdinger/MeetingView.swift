@@ -16,23 +16,20 @@ struct MeetingView: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 16.0)
+            RoundedRectangle(cornerRadius: 16)
                 .fill(scrum.theme.mainColor)
             VStack {
                 MeetingHeaderView(secondsElapsed: scrumTimer.secondsElapsed, secondsRemaining: scrumTimer.secondsRemaining, theme: scrum.theme)
-
                 ZStack {
                     Circle()
-                        .strokeBorder(lineWidth: 24, antialiased: true)
+                        .strokeBorder(lineWidth: 24)
                 }
-                .padding()
-
+                .padding(16)
                 MeetingFooterView(speakers: scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
         .padding()
         .foregroundColor(scrum.theme.accentColor)
-        .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
             scrumTimer.speakerChangedAction = {
@@ -46,6 +43,7 @@ struct MeetingView: View {
             let newHistory = History(attendees: scrum.attendees, lengthInMinutes: scrum.timer.secondsElapsed / 60)
             scrum.history.insert(newHistory, at: 0)
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
